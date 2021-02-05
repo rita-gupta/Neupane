@@ -1,0 +1,150 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;  
+}
+/* .img-section img {
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.56) 0%, rgba(36,36,36,0.15) 100%);
+} */
+
+
+
+
+
+.img-section{
+    position:relative;
+    width:100%;
+    height:500px;
+    background: url(./assets/branches_kudan.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.neupane-slide{
+    position:absolute;
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.56) 0%, rgba(36,36,36,0.15) 100%);
+}
+
+
+
+.heading h4 {
+    
+        /* position: absolute;
+        
+        left: 50%;
+        transform: translate(-50%, -158%);
+        color: white;
+        font-size: 42px;
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;     */
+        
+            position:absolute;
+            left:50%;
+            transform:translate(-50%,0%);
+            bottom:127px;
+            font-size:42px;
+            font-weight:bold;
+            color:white;
+        
+
+
+      
+}
+
+.second-column {
+    margin-top: 110px;
+}
+  
+  
+
+.second .row {
+    background-color: rgb(240, 235, 235);
+    width: 1366;
+    height: 100%;
+    margin-bottom: 60px;
+    padding: 40px 150px;
+    
+}
+.second p {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;    
+}
+.email, .phone {
+    margin-top: 0px;
+}
+.email {
+    margin-bottom: 0px;
+}
+.phone{
+    margin-bottom:30px;
+}
+.second .red-text {
+    color: rgb(241, 72, 6);
+}
+.titles {
+    font-weight: bold;
+    font-size: 18px !important;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.third {
+    margin-bottom: 50px;
+    border-bottom: 2px dashed black;
+}
+.third .row {
+    padding-left: 100px;
+
+}
+.third h4 {
+    padding-bottom: 7px;
+    border-bottom: 2px solid grey;
+}
+.input-box .name {
+    padding: 16px ;
+    margin: 20px;
+    background-color: rgb(214, 210, 210);
+    width: 260px;
+    height: 43px;
+    
+}
+input {
+    outline: none;
+    border-style: none;
+}
+.input-box .row {
+    padding-left:0px;
+margin-left:0px;
+}
+.serve {
+    padding: 16px ;
+    padding-bottom: 170px;
+    margin: 20px;
+    background-color: rgb(214, 210, 210);
+}
+.third .paragraph {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;  
+    margin: 30px;
+  
+
+
+}
+.submit {
+    /* padding: 10px; */
+    font-size: bold;
+    width: 130px;
+    height: 47px;
+    color: white;
+    background-color:rgb(228, 102, 52) ;
+    border-style: none;
+    margin: 30px;
+
+}
