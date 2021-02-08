@@ -329,7 +329,10 @@ input {
   display: flex;
   justify-content: center;
 }
-
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
 .bio-section p {
   margin-bottom: 0px !important;
 }
@@ -345,11 +348,26 @@ input {
   
 }
 
+.second-part{
+  background: #f6f6f6;
+}
+.second-part-wrapper{
+  max-width: 1500px;
+  margin: auto;
+}
+
+.third-part-wrapper {
+  max-width: 1500px;
+  margin: auto;
+
+}
+
 .second-part .row {
-  background-color: #f6f6f6;
+
   height: 516;
   display: flex;
   justify-content: center;
+  /* max-width: 1500px; */
   align-items: center;
   padding: 20px 100px;
   background-size: 100%;
@@ -366,7 +384,7 @@ input {
 }
 .author {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 .author img {
