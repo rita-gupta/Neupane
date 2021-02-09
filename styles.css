@@ -36,9 +36,28 @@
     transform:translate(-50%, 0%);
 
 }
+.second {
+  background-color: #f6f6f6;
 
+}
+.second-wrapper {
+  padding-left:7.48%;
+    padding-right:6.73%;
+    max-width: 1500px;
+}
+/* 
+.third {
+  background-color: #f6f6f6;
+
+} */
+.third-wrapper {
+
+  padding-left:7.48%;
+  padding-right:6.73%;
+  max-width: 1500px;
+}
 iframe {
-  width: 583px;
+  width: 100%;
   height: 479px;
   margin-top: 20px;
   justify-content: center;
@@ -86,11 +105,10 @@ iframe {
 }
 
 .second .row {
-  background-color: #f6f6f6;
   width: 1366;
   height: 100%;
   margin-bottom: 60px;
-  padding: 40px 150px;
+  padding: 40px 40px;
 }
 .second p {
   font-size: 14px;
@@ -120,13 +138,14 @@ iframe {
   margin-bottom: 50px;
   /* border-bottom: 2px dashed black; */
 }
-.third .row {
+/* .third .row {
   padding-left: 100px;
-}
+} */
 .third h4 {
   padding-bottom: 7px;
   border-bottom: 2px solid #777777;
   color: #1c2727;
+  margin-left: 33px;
 }
 .input-box .name {
   padding: 16px;
